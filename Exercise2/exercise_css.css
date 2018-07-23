@@ -1,9 +1,12 @@
 *{
   font-family: tahoma;
 }
+
 body{
   margin:0px;
+  background-color: #ededed;
 }
+
 #header{
 	background-color: #b2e7ff;
 	font-size: 24px;
@@ -12,10 +15,12 @@ body{
 	border-bottom: 2px solid #0ab1ff;
   padding:20px 0px;
 }
+
 #container{
   display: table;
-  width:100%;
+  width:1000px;
 }
+
 #nav-list a{
   text-decoration: none
 }
@@ -24,8 +29,8 @@ body{
   display: table-cell;
 	background-color: #0ab1ff;
 	padding: 25px 10px;
-  width:250px;
-  }
+  width:230px;
+}
 
 #nav-header{
   width:inherit;
@@ -35,13 +40,16 @@ body{
   list-style-type: disc;
   padding-left: 20px;
 }
+
 #nav-list li{
   color: white;
   margin: 20px 0px;
 }
+
 #nav-list li a{
   color:white;
 }
+
 #nav-list li a:hover{
   color:blue;
 }
@@ -54,6 +62,7 @@ body{
 #con-text{
   color:#802525;
 }
+
 #content{
   display: table-cell;
   background-color: #ededed;
@@ -63,7 +72,8 @@ body{
 
 #footer{
   padding:20px 0px;
-  background-color: #3cff78;  font-size: 24px;
+  background-color: #3cff78;
+  font-size: 24px;
   color: black;
   text-align: center;
   border-bottom: 2px solid #0ab1ff;
